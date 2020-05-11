@@ -6,7 +6,7 @@ body {
 h2 {
   position: fixed;
   z-index: 20;
-  margin-left: 220px;
+  margin-left: 208px;
   margin-top: 375px;
 }
 .currentSpeed {
