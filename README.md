@@ -8,8 +8,8 @@ This project made as the _Task-1_ for applying for an internship at **ThingsGoSo
 
 ## How It Works
 
-1. Open **_index.html_** on one tab after cloning the project.
+1. Open **_[Virtual Dashboard](https://virtual-dashboard.netlify.app/)_** on one tab.
 2. Open the **_[API Reference](https://speedometer-jagnani73-11052020.herokuapp.com/setSpeed?speed=173)_** on a new tab.
 3. On the URL mentioned on Step 2, change the **speed** query parameter to any number that you would like to see as the _current speed_.
-4. This will send the _speed_ of your choice via the **GET** request
-5. Sit back, relax and enjoy the transition.
+4. This will send the _speed_ of your choice, received via **GET** request
+5. Sit back, fasten your seat belts and enjoy the transition.

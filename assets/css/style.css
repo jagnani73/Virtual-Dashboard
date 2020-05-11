@@ -1,17 +1,18 @@
 body {
   padding: 0;
   margin: 100px;
+  overflow: scroll;
 }
 
 h2 {
   position: fixed;
-  z-index: 20;
+  z-index: 10;
   margin-left: 208px;
   margin-top: 375px;
 }
 .currentSpeed {
   position: fixed;
-  z-index: 20;
+  z-index: 10;
   margin-left: 225px;
   margin-top: 345px;
 }
@@ -25,4 +26,22 @@ h2 {
   z-index: 10;
   transform-origin: center;
   transition: all 0.3s ease-out;
+}
+
+.instructions {
+  position: relative;
+  margin-left: 600px;
+  padding: 10px;
+  box-shadow: 1px 2px 3px #ccc;
+  z-index: 10;
+  background-color: #fff;
+  width: 500px;
+}
+
+@media (max-width: 1100px) {
+  .instructions {
+    margin-left: 0px;
+    margin-top: 500px;
+    width: 100%;
+  }
 }
