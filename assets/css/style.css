@@ -3,10 +3,17 @@ body {
   margin: 100px;
 }
 
-h1 {
+h2 {
   position: fixed;
   z-index: 20;
-  margin-top: 530px;
+  margin-left: 220px;
+  margin-top: 375px;
+}
+.currentSpeed {
+  position: fixed;
+  z-index: 20;
+  margin-left: 225px;
+  margin-top: 345px;
 }
 
 .speedometer {
